@@ -6,6 +6,10 @@
 ### GitHub: https://github.com/kosh12007
 ## About me
 ### I am fond of computers, I study programming languages Python, Js
+## My skills
+### JS
+### Python
+### Html / Css
 ## My code
 ```javascript
 multiply = function (a, b) {
