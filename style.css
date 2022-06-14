@@ -1,2 +1,159 @@
-style {
+@font-face {
+  font-family: Roboto;
+  src: url("assets/fonts/Roboto-Regular.ttf");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: Roboto;
+  src: url("assets/fonts/Roboto-Bold.ttf");
+  font-weight: 700;
+}
+
+a {
+  color: #000;
+  /*text-decoration: none;*/
+}
+
+html {
+  height: 100%;
+}
+
+h1 {
+    font-size: 4vh;
+    text-align: center;
+}
+
+h2 {
+    font-size: 4vh;
+    text-align: center;
+}
+
+body {
+  font-family: Roboto, sens-serif;
+  font-size: 16px;
+  height: 100%;
+}
+
+header {
+  color: #d7d5d9;
+  font-size: 2em;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  color: #292b2f;
+  font-size: 16px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mine_container {
+flex-basis: 70%;
+align-self: start;
+}
+
+aside {
+  color: rgb(197, 183, 183);
+  font-size: 2em;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header {
+  width: 100%;
+  height: auto;
+  background-color: #3bbfc3;
+}
+
+.container-header {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.container {
+  display: flex;
+  width: 100%;
+}
+
+.contakts {
+    list-style-type: none;
+  }
+
+.contakts_cont {
+  color: #d7d5d9;
+  font-size: 16px;
+  font-weight: 900;
+}
+
+.content {
+  background-color: #d7d5d9;
+  flex-basis: 70%;
+  height: 150vh;
+}
+
+.sidebar {
+  background-color: #292b2f;
+  flex-basis: 30%;
+  height: 60vh;
+  position: sticky;
+  top: 0;
+}
+
+.footer {
+  color: rgb(255, 255, 255);
+  width: 100%;
+  height: auto;
+  clear: both;
+  background-color: #018185;
+}
+
+.f_container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 14px;
+}
+
+.f_text,
+.link {
+  /*padding-right: 60px;*/
+  padding-left: 30px;
+  color: #d7d5d9;
+  font-size: 1em;
+  font-weight: 900;
+}
+
+.h_nav {
+  width: 100%;
+  margin-right: 10px;
+  
+}
+
+.nav_ul {
+  display: flex;
+  justify-content: space-around;
+  padding: 0;
+}
+
+.i_nav {
+  list-style-type: none;
+}
+
+.container_1 {
+  border: 2px; ;
+width: 90%;
+margin: 50px auto;
+background: rgba(255, 255, 255, 0.096);
+-webkit-backdrop-filter: blur(15px);
+        backdrop-filter: blur(15px);
+border-radius: 10px;
+padding: 20px 60px;
 }
