@@ -20,12 +20,12 @@ html {
 }
 
 h1 {
-    font-size: 2em;
+    font-size: 4vh;
     text-align: center;
 }
 
 h2 {
-    font-size: 2em;
+    font-size: 4vh;
     text-align: center;
 }
 
@@ -60,7 +60,7 @@ align-self: start;
 
 aside {
   color: rgb(197, 183, 183);
-  font-size: 1.5em;
+  font-size: 2em;
   font-weight: bold;
   display: flex;
   justify-content: center;
