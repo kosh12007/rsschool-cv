@@ -146,14 +146,3 @@ aside {
 .i_nav {
   list-style-type: none;
 }
-
-.container_1 {
-  border: 2px; ;
-width: 90%;
-margin: 50px auto;
-background: rgba(255, 255, 255, 0.096);
--webkit-backdrop-filter: blur(15px);
-        backdrop-filter: blur(15px);
-border-radius: 10px;
-padding: 20px 60px;
-}
